@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soporte - CalmCheck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #0A0A0F;
+      color: #C8C8D0;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    header {
+      padding: 24px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    nav a {
+      color: #8E8E9A;
+      text-decoration: none;
+      font-size: 14px;
+      margin-left: 24px;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: #E8E8ED; }
+    .content {
+      padding: 60px 0 80px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 16px;
+      color: #8E8E9A;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #E8E8ED;
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+    p, li {
+      font-size: 15px;
+      margin-bottom: 12px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    a { color: #8E8E9A; }
+    a:hover { color: #E8E8ED; }
+    .contact-box {
+      margin-top: 40px;
+      padding: 24px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+    }
+    .contact-box h2 {
+      margin-top: 0;
+    }
+    .contact-box a {
+      color: #FFFFFF;
+      font-weight: 500;
+    }
+    footer {
+      padding: 40px 0;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      text-align: center;
+    }
+    footer p {
+      font-size: 13px;
+      color: #5A5A66;
+      margin-bottom: 12px;
+    }
+    footer a {
+      color: #8E8E9A;
+      text-decoration: none;
+      font-size: 13px;
+      margin: 0 12px;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 26px; }
+      .content { padding: 40px 0 60px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/CalmCheckWeb" class="logo">CalmCheck</a>
+      <nav>
+        <a href="/CalmCheckWeb/terms">Términos</a>
+        <a href="/CalmCheckWeb/privacy">Privacidad</a>
+        <a href="/CalmCheckWeb/support">Soporte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="container">
+      <h1>Soporte</h1>
+      <p class="subtitle">Estamos aquí para ayudarte con cualquier duda o problema.</p>
+
+      <h2>Preguntas frecuentes</h2>
+
+      <h2>¿Qué es CalmCheck?</h2>
+      <p>CalmCheck es una aplicación de monitoreo de bienestar que te permite realizar check-ins diarios. Si no respondes en el tiempo configurado, tus contactos de confianza reciben una alerta automática con tu ubicación.</p>
+
+      <h2>¿Cómo configuro mis contactos de confianza?</h2>
+      <p>Desde la sección de ajustes en la aplicación, puedes agregar o modificar tus contactos de confianza. Asegúrate de contar con su consentimiento antes de agregarlos.</p>
+
+      <h2>¿Qué pasa si no hago mi check-in?</h2>
+      <p>Si no realizas tu check-in dentro del periodo configurado, CalmCheck enviará automáticamente una notificación a tus contactos de confianza con tu última ubicación conocida.</p>
+
+      <h2>¿Cómo cancelo mi suscripción?</h2>
+      <p>Puedes gestionar y cancelar tu suscripción en cualquier momento desde Ajustes > tu Apple ID > Suscripciones en tu dispositivo iOS.</p>
+
+      <h2>¿CalmCheck reemplaza los servicios de emergencia?</h2>
+      <p>No. CalmCheck es una herramienta de apoyo y no sustituye a los servicios de emergencia. En caso de emergencia, contacta directamente al número de emergencias de tu localidad.</p>
+
+      <div class="contact-box">
+        <h2>¿Necesitas más ayuda?</h2>
+        <p>Si no encontraste la respuesta que buscas, escríbenos y te responderemos lo antes posible.</p>
+        <p><a href="mailto:calmcheck@zmple.com.mx">calmcheck@zmple.com.mx</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 CalmCheck. Todos los derechos reservados.</p>
+      <a href="/CalmCheckWeb/terms">Términos de uso</a>
+      <a href="/CalmCheckWeb/privacy">Política de privacidad</a>
+      <a href="/CalmCheckWeb/support">Soporte</a>
+    </div>
+  </footer>
+</body>
+</html>
